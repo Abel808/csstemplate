@@ -109,3 +109,30 @@ header .container{
     height: 25px;
 }
 /* border: 1px solid pink; */
+
+
+section .intro-span{
+    font-weight: 600;
+}
+
+.intro{
+    display: flex;
+    height: 30vh;
+    align-items: center;
+
+}
+
+.intro .left{
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+    gap: 20px;
+}
+
+.intro-span{
+    align-self: flex-start;
+}
+
+.right img{
+    height: 300px;
+}
